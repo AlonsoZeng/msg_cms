@@ -11,6 +11,8 @@
 }
 .box_3 {
 }
+.image {
+}
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
@@ -57,7 +59,12 @@
 }
 .line {
 }
+.arrow {
+}
 .checkbox {
+  text-align:left;
+}
+.radio_button {
   text-align:left;
 }
 .table_cell {
@@ -84,6 +91,14 @@
   text-align:left;
 }
 .text_field {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.list_box {
   color:#000000;
   text-align:left;
 }
