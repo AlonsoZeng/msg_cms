@@ -232,13 +232,8 @@
             <!-- Unnamed (Droplist) -->
             <div id="u1427" class="ax_default droplist">
               <select id="u1427_input">
-                <option selected value="企鹅影院会员剩余天数">企鹅影院会员剩余天数</option>
-                <option value="鼎级剧场会员剩余天数">鼎级剧场会员剩余天数</option>
-                <option value="NBA会员剩余天数">NBA会员剩余天数</option>
-                <option value="企鹅影院会员过期天数">企鹅影院会员过期天数</option>
-                <option value="鼎级剧场会员过期天数">鼎级剧场会员过期天数</option>
-                <option value="NBA会员过期天数">NBA会员过期天数</option>
-                <option value="用户昵称">用户昵称</option>
+                <option value="手机尾号后4位">手机尾号后4位</option>
+                <option value="List Item1">List Item1</option>
               </select>
             </div>
           </div>
@@ -739,8 +734,26 @@
         <div id="u1531_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u1532" class="text">
-          <p><span>短信参数中，需要提前定义变量中的可选项，分别为会员剩余天数、会员过期天数、用户昵称。</span></p><p><span><br></span></p><p><span>当选中会员剩余天数时，则按照用户会员信息中对应会员的到期时间，计算到期时间减去短信发送时间（运营在定时任务中定义的时间）折合的天数；</span></p><p><span><br></span></p><p><span>当选中会员过期天数时，则按照用户会员信息中对应会员的到期时间，计算短信发送时间（运营在定时任务中定义的时间）减去到期时间折合的天数；</span></p>
+          <p><span>短信参数中，需要提前定义变量中的可选项，参数来源模块用来定义向某个模块获取参数；参数名称用来定位在上面指定的模块中获取某个字段的数据；</span></p>
         </div>
+      </div>
+
+      <!-- Unnamed (Paragraph) -->
+      <div id="u1533" class="ax_default _文本段落">
+        <img id="u1533_img" class="img " src="images/创建短信参数/u1533.png"/>
+        <!-- Unnamed () -->
+        <div id="u1534" class="text">
+          <p><span>参数来源模块</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1535" class="ax_default droplist">
+        <select id="u1535_input">
+          <option value="用户中心">用户中心</option>
+          <option value="VOD">VOD</option>
+          <option value="星云">星云</option>
+        </select>
       </div>
     </div>
   </body>
